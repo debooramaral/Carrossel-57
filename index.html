@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <title>PET FABRICA 57</title>
+</head>
+<body>
+    <section class="carrossel">
+        <div class="swiper mySwiper container">
+            <div class=" swiper-wrapper contente">
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="imagem">
+                            <img src="img/1.jpg">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="name-pet">
+                            <span class="name">Labrador</span>
+                            <span class="raça">BILI</span>
+                        </div>
+                        <div class="botão">
+                            <button class="adote">ADOTE-ME</button>
+                            <button class="doe">DOE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="imagem">
+                            <img src="img/2.jpg">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="name-pet">
+                            <span class="name">Labrador</span>
+                            <span class="raça">BILI</span>
+                        </div>
+                        <div class="botão">
+                            <button class="adote">ADOTE-ME</button>
+                            <button class="doe">DOE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="imagem">
+                            <img src="img/3.jpg">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="name-pet">
+                            <span class="name">Labrador</span>
+                            <span class="raça">BILI</span>
+                        </div>
+                        <div class="botão">
+                            <button class="adote">ADOTE-ME</button>
+                            <button class="doe">DOE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="imagem">
+                            <img src="img/4.jpg">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="name-pet">
+                            <span class="name">Labrador</span>
+                            <span class="raça">BILI</span>
+                        </div>
+                        <div class="botão">
+                            <button class="adote">ADOTE-ME</button>
+                            <button class="doe">DOE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card-content">
+                        <div class="imagem">
+                            <img src="img/5.jpg">
+                        </div>
+                        <div class="media-icons">
+                            <i class="fa-brands fa-instagram-square"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="name-pet">
+                            <span class="name">Labrador</span>
+                            <span class="raça">BILI</span>
+                        </div>
+                        <div class="botão">
+                            <button class="adote">ADOTE-ME</button>
+                            <button class="doe">DOE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    </section>
+
+    <script>
+        var swiper = new Swiper(".mySwiper",{
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination:{
+                el:".swiper-pagination",
+                clickable: true,
+            },
+            navigation:{
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            }
+        })
+    </script>
+</body>
+</html>

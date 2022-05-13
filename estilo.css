@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.carrossel{
+    position: relative;
+    height: 450px;
+    width: 1075px;
+    display: flex;
+    align-items: center;
+}
+.card{
+    position: relative;
+    background: yellowgreen;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 300px;
+}
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+.carrossel .card .imagem{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color: darkgreen;
+}
+.carrossel .card .imagem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.card .media-icons{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    display: flex;
+}
+.card .media-icons i{
+    color: darkolivegreen;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.card .media-icons i:hover{
+    opacity: 0.5;
+}
+.card .name-pet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    color:darkgreen;
+}
+.name-pet .name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card .botão{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.card .botão button{
+    background: darkolivegreen ;
+    outline: none;
+    border: none;
+    color: ghostwhite;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.botão button:hover{
+    background-color: darkgreen;
+}
+.swiper{
+    width: 1000px;
+}
